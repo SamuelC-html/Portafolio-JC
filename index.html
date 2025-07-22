@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="Portafolio, web, desarrollo" />
+  <title>Portafolio - Samuel Cano</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header id="header">
+    <div class="container">
+      <h1>Portafolio</h1>
+      <nav>
+        <a href="#section-about-me">Sobre Mí</a>
+        <a href="#section-projects">Proyectos</a>
+        <a href="#section-blogs">Blog</a>
+        <a href="#section-references">Referencias</a>
+        <a href="#section-contacts">Contacto</a>
+      </nav> 
+    </div>
+  </header>
+
+  <!-- Contenido principal -->
+  <main>
+    
+    <!-- Sobre Mí -->
+    <section id="#section-about-me" class="section-container">
+      <div class="container">
+        <h2>Sobre Mí</h2>
+        <div class="about-container">
+          <img src="img/foto-de-perfil.png" width="200" height="300" alt="Foto Samuel Cano">
+          <div class="about-description">
+            <h3>Samuel David Cano Guzmán</h3>
+            <p><b>Estudiante de Ingeniería Mecatroníca</b> apasionado por el desarrollo de software y la innovación, con experiencia en distintos proyectos enfocados en el desarrollo de aplicaciones webs, aplicaciones locales con Java y otros tipos de software, así como estudios de usabilidad y pruebas de usuario. Soy estudiante de programación y participo activamente en el desarrollo de soluciones innovadoras, con el objetivo de desarrollar aplicaciones funcionales, enfocandonos en las necesidades principales de nuestros clientes, garantizando la solución y la mejor experiencia de usuario mediante pruebas detalladas.</p>
+          </div>
+          <div class="skills">
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JS</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->    
+    <section id="section-projects" class="section-container">
+      <div class="container">
+        <h2>Proyectos</h2>
+        <div id="container-projects">
+
+          <div class="card-project">
+            <h3>Portafolio Web</h3>
+            <img src="" alt="Captura de Portafolio Web">
+            <p>Página web con HTML, CSS y JS, que muestra un portafolio virtual con mis proyectos más importantes.</p>
+            <a href="https://samuelcano10.github.io/JC-Portafolio-SC/" target="_blank">Ver proyecto</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog -->
+    <section id="section-blog" class="section-container">
+      <div class="container">
+        <div class="blog-header">
+          <h2>Blog</h2>
+          <button class="new-post-btn" type="button">Nuevo Post</button>
+        </div>
+        <div class="blog-list">
+          <!-- Entradas del blog -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Referencias -->
+     <section id="section-references" class="section-container">
+      <div class="container">
+        <h2>Referencias</h2>
+        <div id="container-references">
+
+          <div class="card-references">
+            <div class="img-reference"><img src="falta imagen" alt="Foto Compañero JC"></div>
+            <h3>"Trabajar con Samuel durante el curso fue una experiencia muy amena y enriquecedora"</h3>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="section-contact" class="section-container">
+      <div class="container">
+        <h2>Contacto</h2>
+        <form action="mailto:tu-correo@ejemplo.com" method="post" enctype="text/plain">
+          <label for="inpt-nombreUsuario">Nombre:</label>
+          <input type="text" name="nombreUsuario" id="inpt-nombreUsuario" required>
+
+          <label for="inpt-correoUsuario">Correo Electrónico</label>
+          <input type="text" name="correoUsuario" id="inpt-correoUsuario" required>
+          
+          <label for="inpt-asunto">Asunto:</label>
+          <input type="text" name="asunto" id="inpt-asunto" required />
+
+          <label for="inpt-descripcion">Descripción:</label>
+          <textarea name="descripcion" id="inpt-descripcion" rows="5" required></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+</body>
+
+</html>
+

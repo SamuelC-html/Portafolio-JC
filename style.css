@@ -1,0 +1,28 @@
+/* Reset de Estilos y Config base */
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Arial", Helvetica, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #000000;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Encabezado y navegación */
+#header{
+  background-color: #000000;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
