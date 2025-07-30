@@ -1,0 +1,62 @@
+@import "header-nav.css";
+@import "section-about-me.css";
+@import "section-projects.css";
+@import "section-blog.css";
+@import "section-references.css";
+
+/* Reset de Estilos y Config base */
+*{
+  margin: 0; /* Los 4 lados tienen el mismo valor*/
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Arial", Helvetica, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #000000;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section-container{
+  padding: 3rem 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/*Pseudoclase que permite seleccionar elementos basado en su posición*/
+.section-container:nth-child(even){
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 5);
+}
+
+.section-container:nth-child(odd){
+  background-color: #f8f9fa;
+}
+
+.section-container h2{
+  font-size: 2rem;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+}
+
+.section-container h2::before{
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  background-color: linear-gradient(90deg, #afd6ff, #087bff);
+}

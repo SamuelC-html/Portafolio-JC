@@ -1,0 +1,15 @@
+/* Section Blog */
+.blog-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.new-post-btn{
+  background-color: #2746ae;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}

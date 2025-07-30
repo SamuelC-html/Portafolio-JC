@@ -1,0 +1,23 @@
+/* Sección Proyectos */
+#container-projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 2rem;
+}
+
+.card-project{
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
+  padding: 1.5rem;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card-project:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card-project img{
+  width: 100%;
+}
